@@ -38,14 +38,14 @@
                 </div>
                 <div class="col-sm-6">
                 </div>
+              </div>
+               <div class="row">
+                <div class="col-sm-12">
+                  <%= f.text_area :caption, class:"form-control", rows:"3", placeholder:"コメントここに" %>
                 </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <%= f.text_area :caption, class:"form-control", rows:"3", placeholder:"コメントここに" %>
-                  </div>
-                </div>
-                <hr>
-                <%= f.submit "送信", class:"btn btn-lg btn-block btn-base-1 mt-20" %>
+              </div>
+              <hr>
+              <%= f.submit "送信", class:"btn btn-lg btn-block btn-base-1 mt-20" %>
             <% end %>
           </div>
         </div>
